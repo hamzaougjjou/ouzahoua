@@ -9,11 +9,13 @@
     <title>
         @yield('title', 'الصفحة الرئيسية')</title>
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     <!-- Include any CSS files here -->
     <link rel="shortcut icon" href="{{ $store->icon }}" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-WCGjcdUx.css') }}">
     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+    <script src="{{ asset('build/assets/app-DLXkxiZ3.js') }}"></script>
 </head>
 
 <body class="bg-gray-50">
