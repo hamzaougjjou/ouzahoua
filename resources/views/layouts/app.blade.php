@@ -13,7 +13,7 @@
     <!-- Include any CSS files here -->
     <link rel="shortcut icon" href="{{ $store->icon }}" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <script src="https://cdn.tailwindcss.com"></script>
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
 </head>
 
 <body class="bg-gray-50">
